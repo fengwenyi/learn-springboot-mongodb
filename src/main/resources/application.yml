@@ -1,0 +1,21 @@
+
+
+spring:
+  application:
+    name: springboot-mongo-multi-source
+
+  data:
+    mongodb:
+      ##############################
+      #
+      # 两种方式,uri 或者 分别配置
+      #
+      # 集群，采用uri
+      #
+      ##############################
+      uri: mongodb://localhost:27017/db1
+#      host: localhost
+#      port: 27017
+#      username:
+#      password:
+#      database: db1
